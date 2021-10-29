@@ -1,0 +1,70 @@
+/* Adaptive */
+
+@media(max-width: 768px) {
+    .header {
+        font-size: 80px;
+        display: block;
+        text-align: center;
+    }
+
+    .header a,
+    .header img {
+        display: none;
+    }
+
+    .company-img {
+        background-image: url("src/img/vesiMobile.png");
+        min-height: 400px;
+    }
+
+    .company-img p,
+    .company-img span {
+        font-size: 30px;
+    }
+
+    .company-info-list-items {
+        display: block;
+    }
+
+    .company-second-img {
+        background-image: url("src/img/blankMobile.png");
+        min-height: 260px;
+        display: block;
+        text-align: center;
+    }
+
+    .company-second-img-item span {
+        font-size: 25px;
+    }
+
+    .company-second-img-item p {
+        font-size: 15px;
+    }
+
+    .company-advantages-list-items {
+        display: block;
+        text-align: center;
+    }
+
+    .senior-associate {
+        background-image: url("src/img/seniorMobile.png");
+        background-size: 100%;
+        min-height: 260px;
+        font-size: 23px;
+    }
+
+    .senior-associate p,
+    .senior-associate span {
+        width: 50%;
+        backdrop-filter: blur(5px);
+    }
+
+    .footer {
+        display: block;
+        font-size: 30px;
+        text-align: center;
+        padding: 5%;
+    }
+
+
+}
