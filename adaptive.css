@@ -1,6 +1,9 @@
 /* Adaptive */
 
 @media(max-width: 768px) {
+
+    /* Header adaptive styles */
+    
     .header {
         font-size: 80px;
         display: block;
@@ -12,6 +15,8 @@
         display: none;
     }
 
+/* Company image adaptive styles  */
+
     .company-img {
         background-image: url("src/img/vesiMobile.png");
         min-height: 400px;
@@ -22,9 +27,13 @@
         font-size: 30px;
     }
 
+/* Company info adaptive styles */
+
     .company-info-list-items {
         display: block;
     }
+
+/* Company second image adaptive styles */
 
     .company-second-img {
         background-image: url("src/img/blankMobile.png");
@@ -41,10 +50,14 @@
         font-size: 15px;
     }
 
+/* Company advantages adaptive styles */
+
     .company-advantages-list-items {
         display: block;
         text-align: center;
     }
+
+/* Senior associate adaptive styles */
 
     .senior-associate {
         background-image: url("src/img/seniorMobile.png");
@@ -58,6 +71,8 @@
         width: 50%;
         backdrop-filter: blur(5px);
     }
+
+/* Footer adaptive styles  */
 
     .footer {
         display: block;
