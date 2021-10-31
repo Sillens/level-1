@@ -3,7 +3,7 @@
 @media(max-width: 768px) {
 
     /* Header adaptive styles */
-    
+
     .header {
         font-size: 80px;
         display: block;
@@ -15,7 +15,7 @@
         display: none;
     }
 
-/* Company image adaptive styles  */
+    /* Company image adaptive styles  */
 
     .company-img {
         background-image: url("src/img/vesiMobile.png");
@@ -27,43 +27,47 @@
         font-size: 30px;
     }
 
-/* Company info adaptive styles */
+    /* Company info adaptive styles */
 
     .company-info-list-items {
         display: block;
     }
 
-/* Company second image adaptive styles */
+    /* Company second image adaptive styles */
 
     .company-second-img {
         background-image: url("src/img/blankMobile.png");
         min-height: 260px;
-        display: block;
         text-align: center;
     }
 
     .company-second-img-item span {
-        font-size: 25px;
+        font-size: 30px;
+        backdrop-filter: blur(5px);
     }
 
     .company-second-img-item p {
-        font-size: 15px;
+        font-size: 20px;
     }
 
-/* Company advantages adaptive styles */
+    /* Company advantages adaptive styles */
 
     .company-advantages-list-items {
         display: block;
         text-align: center;
     }
 
-/* Senior associate adaptive styles */
+    .company-advantages-item h1,
+    .company-info-item h1 {
+        font-size: 30px;
+    }
+
+    /* Senior associate adaptive styles */
 
     .senior-associate {
-        background-image: url("src/img/seniorMobile.png");
         background-size: 100%;
-        min-height: 260px;
-        font-size: 23px;
+        min-height: 230px;
+        font-size: 25px;
     }
 
     .senior-associate p,
@@ -72,14 +76,135 @@
         backdrop-filter: blur(5px);
     }
 
-/* Footer adaptive styles  */
+    /* Footer adaptive styles  */
 
     .footer {
         display: block;
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
         padding: 5%;
     }
 
+    .company-map {
+        display: none;
+    }
+}
 
+
+@media (max-width: 425px) {
+
+    /* Senior associate adaptive styles */
+
+    .senior-associate {
+        background-size: 100%;
+        min-height: 160px;
+        font-size: 25px;
+    }
+    
+    .mobile-paragraph-none {
+        display: none;
+    }
+
+/* Company second image adaptive styles */
+
+    .company-second-img {
+        display: block
+    }
+
+    .company-second-img-item span {
+        font-size: 27px;
+    }
+
+    .company-second-img-item p {
+        font-size: 17px;
+    }
+}
+
+@media(min-width: 1024px) and (max-width: 1024px) {
+
+/* Header adaptive styles */
+
+    .header {
+        font-size: 100px;
+        display: block;
+        text-align: center;
+    }
+
+    .header a,
+    .header img {
+        display: none;
+    }
+
+/* Company advantages/info adaptive styles */
+
+    .company-advantages-item h1,
+    .company-info-item h1 {
+        font-size: 25px;
+    }
+
+    .company-advantages-item p,
+    .company-info-item p {
+        font-size: 20px;
+    }
+
+/* Company second image adaptive styles */
+
+    .company-second-img p {
+        font-size: 30px;
+    }
+
+    .company-second-img span {
+        font-size: 80px;
+    }
+
+/* Senior associate adaptive styles */
+
+    .senior-associate {
+        background-size: 100%;
+        min-height: 290px;
+        font-size: 40px;
+    }
+
+    .senior-associate p, .senior-associate span {
+        width: 55%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width:1440px){
+
+    /* Header adaptive styles */
+
+    .header {
+        font-size: 110px;
+    }
+
+/* Company second image adaptive styles */
+
+    .company-second-img p {
+        font-size: 40px;
+    }
+
+    .company-second-img span {
+        font-size: 100px;
+    }
+
+/* Company advantages/info adaptive styles */
+
+    .company-advantages-item h1,
+    .company-info-item h1 {
+        font-size: 30px;
+    }
+
+    .company-advantages-item p,
+    .company-info-item p {
+        font-size: 20px;
+    }
+
+    /* Senior associate adaptive styles */
+
+    .senior-associate {
+        background-size: 100%;
+        min-height: 330px;
+        font-size: 40px;
+    }
 }
